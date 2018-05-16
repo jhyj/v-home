@@ -9,15 +9,17 @@
        </li>
      </ul>
    </div>
-  <BlogContent />
+  <!-- <BlogContent /> -->
+   <BlogContent2 />
     </div>
 </template>
 <script>
-import BlogContent from './BlogContent'
+// import BlogContent from './BlogContent'
+import BlogContent2 from './BlogContent2'
 export default {
   name: "Blog",
   components: {
-    BlogContent
+    BlogContent2
   },
   computed: {
     id() {
